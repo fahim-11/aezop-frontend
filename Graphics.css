@@ -1,0 +1,112 @@
+/* Common styles for containers */
+.logo-maker-container,
+.logo-design-container,
+.brand-style-guides-container,
+.fonts-typography-container,
+.business-card-stationery-container,
+.website-design-container,
+.app-design-container,
+.ux-design-container,
+.landing-page-design-container,
+.icon-design-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Heading styles for h1 */
+.logo-maker-container h1,
+.logo-design-container h1,
+.brand-style-guides-container h1,
+.fonts-typography-container h1,
+.business-card-stationery-container h1,
+.website-design-container h1,
+.app-design-container h1,
+.ux-design-container h1,
+.landing-page-design-container h1,
+.icon-design-container h1 {
+  color: #2f63b0;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Paragraph styles */
+.logo-maker-container p,
+.logo-design-container p,
+.brand-style-guides-container p,
+.fonts-typography-container p,
+.business-card-stationery-container p,
+.website-design-container p,
+.app-design-container p,
+.ux-design-container p,
+.landing-page-design-container p,
+.icon-design-container p {
+  color: #555;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+/* Heading styles for h2 */
+.logo-maker-container h2,
+.logo-design-container h2,
+.brand-style-guides-container h2,
+.fonts-typography-container h2,
+.business-card-stationery-container h2,
+.website-design-container h2,
+.app-design-container h2,
+.ux-design-container h2,
+.landing-page-design-container h2,
+.icon-design-container h2 {
+  color: #2f63b0;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* List styles */
+.logo-maker-container ul,
+.logo-design-container ul,
+.brand-style-guides-container ul,
+.fonts-typography-container ul,
+.business-card-stationery-container ul,
+.website-design-container ul,
+.app-design-container ul,
+.ux-design-container ul,
+.landing-page-design-container ul,
+.icon-design-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.logo-maker-container ul li,
+.logo-design-container ul li,
+.brand-style-guides-container ul li,
+.fonts-typography-container ul li,
+.business-card-stationery-container ul li,
+.website-design-container ul li,
+.app-design-container ul li,
+.ux-design-container ul li,
+.landing-page-design-container ul li,
+.icon-design-container ul li {
+  padding: 10px 12px;
+  margin-bottom: 6px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.logo-maker-container ul li:hover,
+.logo-design-container ul li:hover,
+.brand-style-guides-container ul li:hover,
+.fonts-typography-container ul li:hover,
+.business-card-stationery-container ul li:hover,
+.website-design-container ul li:hover,
+.app-design-container ul li:hover,
+.ux-design-container ul li:hover,
+.landing-page-design-container ul li:hover,
+.icon-design-container ul li:hover {
+  background-color: #eaeaea;
+  transform: translateY(-2px);
+  cursor: pointer;
+}

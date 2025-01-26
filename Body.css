@@ -1,0 +1,101 @@
+.main-header {
+    background-color:  #507ac9;
+    padding: 20px;
+  }
+  
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .trusted-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .trusted-text {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .trusted-logos {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .logo-image {
+    height: 24px;
+  }
+  
+  .search-section {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .search-input {
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+    width: 300px;
+    font-size: 14px;
+  }
+  
+  .search-button {
+    background-color: #003300;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-button svg {
+    font-size: 16px;
+  }
+  
+  .content-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+  
+  .freelancer-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .freelancer-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .freelancer-title {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+  }
